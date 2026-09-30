@@ -6,3 +6,18 @@ body{
     line-height: 1.2m;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 960;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: ;
+}
+
+nav ul li{
+    list-style: none;
+}

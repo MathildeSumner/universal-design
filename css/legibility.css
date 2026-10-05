@@ -56,6 +56,7 @@ h2.sr-only {
     border: 0;
     padding: 0;
     margin: -1px;
+    color: #F3E9D2;
 }
 
 h3 {
@@ -124,6 +125,7 @@ figure {
 figure img {
     max-width: 100%;
     height: auto;
+    border: 3px solid #713B2C;
 }
 
 figcaption {

@@ -118,6 +118,10 @@ nav h2.sr-only {
     color: #F3E9D2;
 }
 
+article > h2.sr-only {
+    color: #292522;
+}
+
 /* images */
 
 figure {

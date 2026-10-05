@@ -114,6 +114,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
+nav h2.sr-only {
+    color: #F3E9D2;
+}
 
 /* images */
 

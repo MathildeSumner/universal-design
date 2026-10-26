@@ -98,15 +98,14 @@ tbody tr:nth-child(even) {
     background-color: #FFF4F3;
 }
 
-
-
 /* Form */
 
 form {
     background-color: #F7E7CE;
     padding: 20px;
     border: 1px solid #D8BFC3;
-    border-radius: 6px;
+    border-radius: 5px;
+    max-width: 550px;
 }
 
 form div {
@@ -120,22 +119,23 @@ label {
 
 input[type="text"] {
     width: 100%;
-    padding: 8px;
+    padding: 6px;
     border: 1px solid #9D7580;
-    border-radius: 4px;
+    border-radius: 3px;
     background-color: white;
     font: inherit;
 }
 
 fieldset {
-    border: 1px solid #D8BFC3;
-    border-radius: 4px;
-    padding: 12px 15px;
-    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+    margin: 15px 0;
 }
 
 legend {
-    font-weight: 600;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 8px;
 }
 
 fieldset label {
@@ -150,13 +150,10 @@ button {
     background-color: #9D5264;
     color: white;
     border: none;
-    padding: 8px 15px;
-    border-radius: 4px;
+    padding: 7px 15px;
+    border-radius: 3px;
     font: inherit;
     cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
 }
 
 button:hover {

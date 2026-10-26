@@ -98,9 +98,7 @@ tbody tr:nth-child(even) {
     background-color: #FFF4F3;
 }
 
-tbody tr:hover {
-    background-color: #F7E7CE;
-}
+
 
 /* Form */
 

@@ -2,7 +2,11 @@
 /* Form */
 
 form {
-    padding: 10px 0;
+    background-color: #F7E7CE;
+    padding: 20px;
+    border: 1px solid #D8BFC3;
+    border-radius: 5px;
+    max-width: 600px;
 }
 
 form div {
@@ -15,11 +19,10 @@ label {
 }
 
 input[type="text"] {
-    width: 300px;
-    max-width: 100%;
-    padding: 6px;
+    width: 100%;
+    padding: 8px;
     border: 1px solid #9D7580;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: white;
     font: inherit;
 }
@@ -28,7 +31,6 @@ fieldset {
     border: 1px solid #D8BFC3;
     padding: 10px 15px;
     margin-bottom: 15px;
-    max-width: 350px;
 }
 
 legend {
@@ -48,6 +50,7 @@ button {
     color: white;
     border: none;
     padding: 8px 15px;
+    border-radius: 3px;
     font: inherit;
     cursor: pointer;
 }

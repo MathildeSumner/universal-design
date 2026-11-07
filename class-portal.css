@@ -147,3 +147,41 @@ footer p {
         font-size: 23px;
     }
 }
+
+
+header,
+footer {
+    background-color: #C92F66;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.about-container img {
+    width: 230px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.about-container > div {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 650px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container img {
+        width: 200px;
+    }
+
+    .about-container > div {
+        width: 100%;
+    }
+}

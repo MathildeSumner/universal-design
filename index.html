@@ -4,28 +4,96 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathilde Sumner Class Portal</title>
+    <link rel="stylesheet" href="class-portal.css">
 </head>
 
 <body>
 
-    <h1>Mathilde Sumner</h1>
-    <h2>Class Portal</h2>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <h2>About Me</h2>
-    <p>
-        Hi, my name is Mathilde but I go by Tilly. I am a Creative Technology and Design major
-        at CU Boulder. I am interested in web design, UX/UI design, and creating
-        digital and physical projects.
-    </p>
+    <header>
+        <h1>Mathilde Sumner</h1>
+        <p>Class Portal</p>
+    </header>
 
-    <h2>Assignments</h2>
+    <main id="main-content">
 
-    <nav>
-        <a href="led-zeppelin-ii.html">Assignment 1: Semantic HTML</a>
-        <a href="record-picks.html">Tables, Forms, Tabbed Browsing, and Screen Reading</a>
-        <a href="#">Assignment 3</a>
-    </nav>
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+
+            <div class="about-container">
+
+                <img src="tillypic.png"
+                     alt="Photo of Mathilde Sumner"
+                     width="200">
+
+                <div>
+                    <p>
+                        Hi, my name is Mathilde, but I go by Tilly.
+                        I am a Creative Technology and Design major
+                        at CU Boulder. I am interested in web design,
+                        UX/UI design, and creating digital and physical
+                        projects. I love doing arts and crafts,
+                        specifically bedazzling, painting, ceramics,
+                        weaving, and sketching.
+                    </p>
+
+                    <p>
+                        I have a 3-year-old corgi named Winston, and he
+                        is the best dog ever; he is so silly and only
+                        barks when people sneeze. I am a senior pharmacy
+                        technician and have worked at Walgreens for
+                        almost three years. Although I don't have any
+                        interest in going into pharmacy, I love my job,
+                        and it's been great during college. I love
+                        music, specifically classic rock, psychedelic
+                        rock, prog rock, and glam rock. My favorite
+                        bands and artists are David Bowie, the Beatles,
+                        Pink Floyd, Genesis, Led Zeppelin, Roxy Music,
+                        and Bruce Springsteen. I love music so much
+                        because my dad is a musician, music producer,
+                        and huge record collector, and I learned
+                        everything from him!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section aria-labelledby="assignments-heading">
+            <h2 id="assignments-heading">Assignments</h2>
+
+            <nav aria-label="Coding assignments">
+                <ul class="assignment-list">
+                    <li>
+                        <a href="led-zeppelin-ii.html">
+                            Lab #2 - Coding &amp; Posting a Web Page
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="record-picks.html">
+                            Lab #3 - Tables, Forms, Tabbed Browsing,
+                            and Screen Reading
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="lab4.html">
+                            Lab #4 - Accessible CSS Layout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mathilde Sumner | Class Portal</p>
+    </footer>
 
 </body>
 

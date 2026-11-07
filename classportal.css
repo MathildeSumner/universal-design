@@ -1,0 +1,34 @@
+
+
+body {
+    background-color: #FFF9F2;
+    color: #30252A;
+}
+
+
+header {
+    background-color: #E75480;
+    color: #FFFFFF;
+}
+
+
+h2 {
+    color: #B52859;
+    border-bottom: 2px solid #E75480;
+}
+
+
+.assignment-list li {
+    background-color: #FFE4EC;
+}
+
+
+.assignment-list a {
+    color: #8C1744;
+}
+
+
+footer {
+    background-color: #E75480;
+    color: #FFFFFF;
+}

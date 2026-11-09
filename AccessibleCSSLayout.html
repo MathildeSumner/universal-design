@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Pink Website</title>
+    <title>My Website</title>
     <link rel="stylesheet" href="AccessibleCSSLayout.css">
 </head>
 
@@ -19,43 +19,22 @@
 
         <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#main-content">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#extras">Extras</a></li>
             </ul>
         </nav>
+
+        <main id="main-content">
+            <h2>Welcome!</h2>
+            <p>This webpage uses CSS Grid to organize the layout and Flexbox for the navigation links.</p>
+            <p>The layout changes depending on the screen size to make the website easier to use on different devices.</p>
+        </main>
 
         <aside class="aside-one" id="about">
             <h2>About</h2>
             <p>This is my first sidebar. I am practicing CSS Grid and learning how to make responsive webpages.</p>
         </aside>
-
-        <main id="main-content">
-            <section id="home">
-                <h2>Welcome!</h2>
-                <p>This webpage uses CSS Grid to organize the layout and Flexbox for the navigation links.</p>
-                <p>The layout changes depending on the screen size to make the website easier to use on different devices.</p>
-            </section>
-
-            <section id="contact">
-                <h2>Contact Form</h2>
-                <p>Fill out the form below to send a message.</p>
-
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" autocomplete="name" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" autocomplete="email" required>
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-
-                    <button type="button">Submit</button>
-                </form>
-            </section>
-        </main>
 
         <aside class="aside-two" id="extras">
             <h2>Extras</h2>
@@ -63,7 +42,7 @@
         </aside>
 
         <footer>
-            <p>My Pink Website | 2026</p>
+            <p>My Website | 2026</p>
         </footer>
     </div>
 </body>
